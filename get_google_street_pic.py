@@ -7,7 +7,7 @@ import urllib.request
 
 class Google_street():
     def __init__(self):
-        self.key = 'AIzaSyAheAbaaiIOYFPltUA2p40JAk2ed8t2xqI'
+        self.key = '*' # google_map API
         self.location_file_name = './location.txt'
         self.pic_dir = './google_street_pic/'
 
